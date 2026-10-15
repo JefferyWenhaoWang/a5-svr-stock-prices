@@ -1,0 +1,2637 @@
+[
+  {
+    "kernel": "linear",
+    "params": {
+      "C": 1.0,
+      "epsilon": 0.02
+    },
+    "fold_rmse": [
+      7.756895621925997,
+      10.799383353188487,
+      21.768398519540728
+    ],
+    "mean_rmse": 13.44155916488507,
+    "failure": null
+  },
+  {
+    "kernel": "linear",
+    "params": {
+      "C": 1.0,
+      "epsilon": 0.1
+    },
+    "fold_rmse": [
+      7.8079613476049845,
+      10.839099298076727,
+      21.988297671206023
+    ],
+    "mean_rmse": 13.545119438962578,
+    "failure": null
+  },
+  {
+    "kernel": "linear",
+    "params": {
+      "C": 10.0,
+      "epsilon": 0.02
+    },
+    "fold_rmse": [
+      7.756877072667833,
+      10.799391613995706,
+      21.778499724014285
+    ],
+    "mean_rmse": 13.444922803559274,
+    "failure": null
+  },
+  {
+    "kernel": "linear",
+    "params": {
+      "C": 10.0,
+      "epsilon": 0.1
+    },
+    "fold_rmse": [
+      7.8079879776213,
+      10.839080819695214,
+      21.988252194964065
+    ],
+    "mean_rmse": 13.545106997426862,
+    "failure": null
+  },
+  {
+    "kernel": "linear",
+    "params": {
+      "C": 100.0,
+      "epsilon": 0.02
+    },
+    "fold_rmse": [
+      7.756691582925102
+    ],
+    "mean_rmse": null,
+    "failure": "Solver terminated early (max_iter=2000000).  Consider pre-processing your data with StandardScaler or MinMaxScaler."
+  },
+  {
+    "kernel": "linear",
+    "params": {
+      "C": 100.0,
+      "epsilon": 0.1
+    },
+    "fold_rmse": [
+      7.813637091873346,
+      10.83889603827144,
+      21.987797433187755
+    ],
+    "mean_rmse": 13.54677685444418,
+    "failure": null
+  },
+  {
+    "kernel": "poly",
+    "params": {
+      "C": 1.0,
+      "epsilon": 0.02,
+      "gamma": 0.1,
+      "degree": 2,
+      "coef0": 0.0
+    },
+    "fold_rmse": [
+      22.65205837747934,
+      15.211156801950011,
+      4.403817766275381
+    ],
+    "mean_rmse": 14.089010981901575,
+    "failure": null
+  },
+  {
+    "kernel": "poly",
+    "params": {
+      "C": 1.0,
+      "epsilon": 0.02,
+      "gamma": 0.1,
+      "degree": 2,
+      "coef0": 1.0
+    },
+    "fold_rmse": [
+      15.715032555312591,
+      13.686011999112532,
+      18.871737452910573
+    ],
+    "mean_rmse": 16.090927335778563,
+    "failure": null
+  },
+  {
+    "kernel": "poly",
+    "params": {
+      "C": 1.0,
+      "epsilon": 0.02,
+      "gamma": 0.1,
+      "degree": 3,
+      "coef0": 0.0
+    },
+    "fold_rmse": [
+      12.112768282756864,
+      16.601838420417273,
+      24.683470398188412
+    ],
+    "mean_rmse": 17.799359033787514,
+    "failure": null
+  },
+  {
+    "kernel": "poly",
+    "params": {
+      "C": 1.0,
+      "epsilon": 0.02,
+      "gamma": 0.1,
+      "degree": 3,
+      "coef0": 1.0
+    },
+    "fold_rmse": [
+      16.419150632652098,
+      10.950061154847099,
+      13.057700003535553
+    ],
+    "mean_rmse": 13.47563726367825,
+    "failure": null
+  },
+  {
+    "kernel": "poly",
+    "params": {
+      "C": 1.0,
+      "epsilon": 0.02,
+      "gamma": 1.0,
+      "degree": 2,
+      "coef0": 0.0
+    },
+    "fold_rmse": [
+      31.71326065231077,
+      17.783715740711003,
+      5.2010178422094935
+    ],
+    "mean_rmse": 18.232664745077088,
+    "failure": null
+  },
+  {
+    "kernel": "poly",
+    "params": {
+      "C": 1.0,
+      "epsilon": 0.02,
+      "gamma": 1.0,
+      "degree": 2,
+      "coef0": 1.0
+    },
+    "fold_rmse": [
+      18.258709346647684,
+      14.792439408226063,
+      18.48488914164537
+    ],
+    "mean_rmse": 17.178679298839707,
+    "failure": null
+  },
+  {
+    "kernel": "poly",
+    "params": {
+      "C": 1.0,
+      "epsilon": 0.02,
+      "gamma": 1.0,
+      "degree": 3,
+      "coef0": 0.0
+    },
+    "fold_rmse": [
+      31.998137717868293,
+      27.442921663652633,
+      36.301395754264796
+    ],
+    "mean_rmse": 31.91415171192857,
+    "failure": null
+  },
+  {
+    "kernel": "poly",
+    "params": {
+      "C": 1.0,
+      "epsilon": 0.02,
+      "gamma": 1.0,
+      "degree": 3,
+      "coef0": 1.0
+    },
+    "fold_rmse": [
+      14.77596933827743,
+      3.8446321642545747,
+      10.964511584836297
+    ],
+    "mean_rmse": 9.8617043624561,
+    "failure": null
+  },
+  {
+    "kernel": "poly",
+    "params": {
+      "C": 1.0,
+      "epsilon": 0.02,
+      "gamma": 10.0,
+      "degree": 2,
+      "coef0": 0.0
+    },
+    "fold_rmse": [
+      31.70718625989787,
+      23.495194265817904,
+      5.200862439407633
+    ],
+    "mean_rmse": 20.134414321707805,
+    "failure": null
+  },
+  {
+    "kernel": "poly",
+    "params": {
+      "C": 1.0,
+      "epsilon": 0.02,
+      "gamma": 10.0,
+      "degree": 2,
+      "coef0": 1.0
+    },
+    "fold_rmse": [
+      18.259481220623808,
+      14.7953432680478,
+      18.48975731258968
+    ],
+    "mean_rmse": 17.181527267087095,
+    "failure": null
+  },
+  {
+    "kernel": "poly",
+    "params": {
+      "C": 1.0,
+      "epsilon": 0.02,
+      "gamma": 10.0,
+      "degree": 3,
+      "coef0": 0.0
+    },
+    "fold_rmse": [],
+    "mean_rmse": null,
+    "failure": "Solver terminated early (max_iter=2000000).  Consider pre-processing your data with StandardScaler or MinMaxScaler."
+  },
+  {
+    "kernel": "poly",
+    "params": {
+      "C": 1.0,
+      "epsilon": 0.02,
+      "gamma": 10.0,
+      "degree": 3,
+      "coef0": 1.0
+    },
+    "fold_rmse": [],
+    "mean_rmse": null,
+    "failure": "Solver terminated early (max_iter=2000000).  Consider pre-processing your data with StandardScaler or MinMaxScaler."
+  },
+  {
+    "kernel": "poly",
+    "params": {
+      "C": 1.0,
+      "epsilon": 0.1,
+      "gamma": 0.1,
+      "degree": 2,
+      "coef0": 0.0
+    },
+    "fold_rmse": [
+      23.270571261742194,
+      14.493149401880881,
+      4.265472317324847
+    ],
+    "mean_rmse": 14.009730993649308,
+    "failure": null
+  },
+  {
+    "kernel": "poly",
+    "params": {
+      "C": 1.0,
+      "epsilon": 0.1,
+      "gamma": 0.1,
+      "degree": 2,
+      "coef0": 1.0
+    },
+    "fold_rmse": [
+      16.245331251655205,
+      13.048712864574787,
+      18.38089522222324
+    ],
+    "mean_rmse": 15.891646446151077,
+    "failure": null
+  },
+  {
+    "kernel": "poly",
+    "params": {
+      "C": 1.0,
+      "epsilon": 0.1,
+      "gamma": 0.1,
+      "degree": 3,
+      "coef0": 0.0
+    },
+    "fold_rmse": [
+      11.984834030855327,
+      16.67575246896433,
+      24.086028365675798
+    ],
+    "mean_rmse": 17.582204955165153,
+    "failure": null
+  },
+  {
+    "kernel": "poly",
+    "params": {
+      "C": 1.0,
+      "epsilon": 0.1,
+      "gamma": 0.1,
+      "degree": 3,
+      "coef0": 1.0
+    },
+    "fold_rmse": [
+      16.568461745455334,
+      11.193554827765386,
+      13.076412026000728
+    ],
+    "mean_rmse": 13.612809533073815,
+    "failure": null
+  },
+  {
+    "kernel": "poly",
+    "params": {
+      "C": 1.0,
+      "epsilon": 0.1,
+      "gamma": 1.0,
+      "degree": 2,
+      "coef0": 0.0
+    },
+    "fold_rmse": [
+      29.643826231407058,
+      12.338444806576316,
+      4.342151488714543
+    ],
+    "mean_rmse": 15.441474175565972,
+    "failure": null
+  },
+  {
+    "kernel": "poly",
+    "params": {
+      "C": 1.0,
+      "epsilon": 0.1,
+      "gamma": 1.0,
+      "degree": 2,
+      "coef0": 1.0
+    },
+    "fold_rmse": [
+      18.451861995078744,
+      14.273813545832713,
+      18.121533233725263
+    ],
+    "mean_rmse": 16.94906959154557,
+    "failure": null
+  },
+  {
+    "kernel": "poly",
+    "params": {
+      "C": 1.0,
+      "epsilon": 0.1,
+      "gamma": 1.0,
+      "degree": 3,
+      "coef0": 0.0
+    },
+    "fold_rmse": [
+      31.977758917368057,
+      27.90402264542188,
+      37.31711827398508
+    ],
+    "mean_rmse": 32.399633278925,
+    "failure": null
+  },
+  {
+    "kernel": "poly",
+    "params": {
+      "C": 1.0,
+      "epsilon": 0.1,
+      "gamma": 1.0,
+      "degree": 3,
+      "coef0": 1.0
+    },
+    "fold_rmse": [
+      14.93650898347479,
+      3.5828440245740136,
+      9.824467964305699
+    ],
+    "mean_rmse": 9.447940324118166,
+    "failure": null
+  },
+  {
+    "kernel": "poly",
+    "params": {
+      "C": 1.0,
+      "epsilon": 0.1,
+      "gamma": 10.0,
+      "degree": 2,
+      "coef0": 0.0
+    },
+    "fold_rmse": [
+      29.64501605155062,
+      12.333807688785997,
+      4.342009597346126
+    ],
+    "mean_rmse": 15.44027777922758,
+    "failure": null
+  },
+  {
+    "kernel": "poly",
+    "params": {
+      "C": 1.0,
+      "epsilon": 0.1,
+      "gamma": 10.0,
+      "degree": 2,
+      "coef0": 1.0
+    },
+    "fold_rmse": [
+      18.450091929302992,
+      14.25472906545629,
+      18.163438725554148
+    ],
+    "mean_rmse": 16.956086573437812,
+    "failure": null
+  },
+  {
+    "kernel": "poly",
+    "params": {
+      "C": 1.0,
+      "epsilon": 0.1,
+      "gamma": 10.0,
+      "degree": 3,
+      "coef0": 0.0
+    },
+    "fold_rmse": [],
+    "mean_rmse": null,
+    "failure": "Solver terminated early (max_iter=2000000).  Consider pre-processing your data with StandardScaler or MinMaxScaler."
+  },
+  {
+    "kernel": "poly",
+    "params": {
+      "C": 1.0,
+      "epsilon": 0.1,
+      "gamma": 10.0,
+      "degree": 3,
+      "coef0": 1.0
+    },
+    "fold_rmse": [],
+    "mean_rmse": null,
+    "failure": "Solver terminated early (max_iter=2000000).  Consider pre-processing your data with StandardScaler or MinMaxScaler."
+  },
+  {
+    "kernel": "poly",
+    "params": {
+      "C": 10.0,
+      "epsilon": 0.02,
+      "gamma": 0.1,
+      "degree": 2,
+      "coef0": 0.0
+    },
+    "fold_rmse": [
+      31.235961842266047,
+      16.55391725125332,
+      5.113247025609295
+    ],
+    "mean_rmse": 17.63437537304289,
+    "failure": null
+  },
+  {
+    "kernel": "poly",
+    "params": {
+      "C": 10.0,
+      "epsilon": 0.02,
+      "gamma": 0.1,
+      "degree": 2,
+      "coef0": 1.0
+    },
+    "fold_rmse": [
+      17.927520910313127,
+      14.752352384379922,
+      18.489821019905975
+    ],
+    "mean_rmse": 17.056564771533008,
+    "failure": null
+  },
+  {
+    "kernel": "poly",
+    "params": {
+      "C": 10.0,
+      "epsilon": 0.02,
+      "gamma": 0.1,
+      "degree": 3,
+      "coef0": 0.0
+    },
+    "fold_rmse": [
+      29.07241586236578,
+      25.06474718538747,
+      35.174565817060156
+    ],
+    "mean_rmse": 29.770576288271133,
+    "failure": null
+  },
+  {
+    "kernel": "poly",
+    "params": {
+      "C": 10.0,
+      "epsilon": 0.02,
+      "gamma": 0.1,
+      "degree": 3,
+      "coef0": 1.0
+    },
+    "fold_rmse": [
+      16.144947937258305,
+      4.476628333099745,
+      5.639328341123648
+    ],
+    "mean_rmse": 8.753634870493899,
+    "failure": null
+  },
+  {
+    "kernel": "poly",
+    "params": {
+      "C": 10.0,
+      "epsilon": 0.02,
+      "gamma": 1.0,
+      "degree": 2,
+      "coef0": 0.0
+    },
+    "fold_rmse": [
+      31.713647694127175,
+      23.48886554463027,
+      5.201300040270892
+    ],
+    "mean_rmse": 20.13460442634278,
+    "failure": null
+  },
+  {
+    "kernel": "poly",
+    "params": {
+      "C": 10.0,
+      "epsilon": 0.02,
+      "gamma": 1.0,
+      "degree": 2,
+      "coef0": 1.0
+    },
+    "fold_rmse": [
+      18.259102000641114,
+      14.792962321441774,
+      18.485114663509425
+    ],
+    "mean_rmse": 17.179059661864102,
+    "failure": null
+  },
+  {
+    "kernel": "poly",
+    "params": {
+      "C": 10.0,
+      "epsilon": 0.02,
+      "gamma": 1.0,
+      "degree": 3,
+      "coef0": 0.0
+    },
+    "fold_rmse": [
+      31.997124660041425,
+      27.443404076546603,
+      36.301320543857145
+    ],
+    "mean_rmse": 31.913949760148387,
+    "failure": null
+  },
+  {
+    "kernel": "poly",
+    "params": {
+      "C": 10.0,
+      "epsilon": 0.02,
+      "gamma": 1.0,
+      "degree": 3,
+      "coef0": 1.0
+    },
+    "fold_rmse": [
+      14.262154145552465,
+      3.72646278054657,
+      11.068500441944844
+    ],
+    "mean_rmse": 9.685705789347958,
+    "failure": null
+  },
+  {
+    "kernel": "poly",
+    "params": {
+      "C": 10.0,
+      "epsilon": 0.02,
+      "gamma": 10.0,
+      "degree": 2,
+      "coef0": 0.0
+    },
+    "fold_rmse": [
+      31.65290777081226,
+      23.555636218242036,
+      5.1997464900772625
+    ],
+    "mean_rmse": 20.136096826377184,
+    "failure": null
+  },
+  {
+    "kernel": "poly",
+    "params": {
+      "C": 10.0,
+      "epsilon": 0.02,
+      "gamma": 10.0,
+      "degree": 2,
+      "coef0": 1.0
+    },
+    "fold_rmse": [
+      18.26595443150762
+    ],
+    "mean_rmse": null,
+    "failure": "Solver terminated early (max_iter=2000000).  Consider pre-processing your data with StandardScaler or MinMaxScaler."
+  },
+  {
+    "kernel": "poly",
+    "params": {
+      "C": 10.0,
+      "epsilon": 0.02,
+      "gamma": 10.0,
+      "degree": 3,
+      "coef0": 0.0
+    },
+    "fold_rmse": [],
+    "mean_rmse": null,
+    "failure": "Solver terminated early (max_iter=2000000).  Consider pre-processing your data with StandardScaler or MinMaxScaler."
+  },
+  {
+    "kernel": "poly",
+    "params": {
+      "C": 10.0,
+      "epsilon": 0.02,
+      "gamma": 10.0,
+      "degree": 3,
+      "coef0": 1.0
+    },
+    "fold_rmse": [],
+    "mean_rmse": null,
+    "failure": "Solver terminated early (max_iter=2000000).  Consider pre-processing your data with StandardScaler or MinMaxScaler."
+  },
+  {
+    "kernel": "poly",
+    "params": {
+      "C": 10.0,
+      "epsilon": 0.1,
+      "gamma": 0.1,
+      "degree": 2,
+      "coef0": 0.0
+    },
+    "fold_rmse": [
+      29.09696705791676,
+      12.723609120398672,
+      4.342127608291681
+    ],
+    "mean_rmse": 15.38756792886904,
+    "failure": null
+  },
+  {
+    "kernel": "poly",
+    "params": {
+      "C": 10.0,
+      "epsilon": 0.1,
+      "gamma": 0.1,
+      "degree": 2,
+      "coef0": 1.0
+    },
+    "fold_rmse": [
+      18.034098585915167,
+      14.00495922254231,
+      18.1646091331533
+    ],
+    "mean_rmse": 16.734555647203592,
+    "failure": null
+  },
+  {
+    "kernel": "poly",
+    "params": {
+      "C": 10.0,
+      "epsilon": 0.1,
+      "gamma": 0.1,
+      "degree": 3,
+      "coef0": 0.0
+    },
+    "fold_rmse": [
+      28.64523512022341,
+      25.72095306558364,
+      34.97053878453434
+    ],
+    "mean_rmse": 29.778908990113795,
+    "failure": null
+  },
+  {
+    "kernel": "poly",
+    "params": {
+      "C": 10.0,
+      "epsilon": 0.1,
+      "gamma": 0.1,
+      "degree": 3,
+      "coef0": 1.0
+    },
+    "fold_rmse": [
+      15.737640735824893,
+      4.5233089089611624,
+      6.651522981598448
+    ],
+    "mean_rmse": 8.970824208794834,
+    "failure": null
+  },
+  {
+    "kernel": "poly",
+    "params": {
+      "C": 10.0,
+      "epsilon": 0.1,
+      "gamma": 1.0,
+      "degree": 2,
+      "coef0": 0.0
+    },
+    "fold_rmse": [
+      29.64367971224165,
+      12.338264239629577,
+      4.342355642895588
+    ],
+    "mean_rmse": 15.441433198255607,
+    "failure": null
+  },
+  {
+    "kernel": "poly",
+    "params": {
+      "C": 10.0,
+      "epsilon": 0.1,
+      "gamma": 1.0,
+      "degree": 2,
+      "coef0": 1.0
+    },
+    "fold_rmse": [
+      18.451804053677343,
+      14.253282368289865,
+      18.164474209404222
+    ],
+    "mean_rmse": 16.956520210457143,
+    "failure": null
+  },
+  {
+    "kernel": "poly",
+    "params": {
+      "C": 10.0,
+      "epsilon": 0.1,
+      "gamma": 1.0,
+      "degree": 3,
+      "coef0": 0.0
+    },
+    "fold_rmse": [
+      31.97571167979856,
+      27.904036577591746,
+      37.31874813854042
+    ],
+    "mean_rmse": 32.39949879864358,
+    "failure": null
+  },
+  {
+    "kernel": "poly",
+    "params": {
+      "C": 10.0,
+      "epsilon": 0.1,
+      "gamma": 1.0,
+      "degree": 3,
+      "coef0": 1.0
+    },
+    "fold_rmse": [
+      14.935812602121166,
+      3.5794311602002833,
+      10.046674139166269
+    ],
+    "mean_rmse": 9.520639300495906,
+    "failure": null
+  },
+  {
+    "kernel": "poly",
+    "params": {
+      "C": 10.0,
+      "epsilon": 0.1,
+      "gamma": 10.0,
+      "degree": 2,
+      "coef0": 0.0
+    },
+    "fold_rmse": [
+      29.65557945092289,
+      12.291937499734509,
+      4.340937389992209
+    ],
+    "mean_rmse": 15.429484780216535,
+    "failure": null
+  },
+  {
+    "kernel": "poly",
+    "params": {
+      "C": 10.0,
+      "epsilon": 0.1,
+      "gamma": 10.0,
+      "degree": 2,
+      "coef0": 1.0
+    },
+    "fold_rmse": [],
+    "mean_rmse": null,
+    "failure": "Solver terminated early (max_iter=2000000).  Consider pre-processing your data with StandardScaler or MinMaxScaler."
+  },
+  {
+    "kernel": "poly",
+    "params": {
+      "C": 10.0,
+      "epsilon": 0.1,
+      "gamma": 10.0,
+      "degree": 3,
+      "coef0": 0.0
+    },
+    "fold_rmse": [],
+    "mean_rmse": null,
+    "failure": "Solver terminated early (max_iter=2000000).  Consider pre-processing your data with StandardScaler or MinMaxScaler."
+  },
+  {
+    "kernel": "poly",
+    "params": {
+      "C": 10.0,
+      "epsilon": 0.1,
+      "gamma": 10.0,
+      "degree": 3,
+      "coef0": 1.0
+    },
+    "fold_rmse": [],
+    "mean_rmse": null,
+    "failure": "Solver terminated early (max_iter=2000000).  Consider pre-processing your data with StandardScaler or MinMaxScaler."
+  },
+  {
+    "kernel": "poly",
+    "params": {
+      "C": 100.0,
+      "epsilon": 0.02,
+      "gamma": 0.1,
+      "degree": 2,
+      "coef0": 0.0
+    },
+    "fold_rmse": [
+      31.713259008565725,
+      17.77208501869569,
+      5.2009674272564705
+    ],
+    "mean_rmse": 18.2287704848393,
+    "failure": null
+  },
+  {
+    "kernel": "poly",
+    "params": {
+      "C": 100.0,
+      "epsilon": 0.02,
+      "gamma": 0.1,
+      "degree": 2,
+      "coef0": 1.0
+    },
+    "fold_rmse": [
+      18.260026352595208,
+      14.793082284604449,
+      18.484959513751615
+    ],
+    "mean_rmse": 17.179356050317093,
+    "failure": null
+  },
+  {
+    "kernel": "poly",
+    "params": {
+      "C": 100.0,
+      "epsilon": 0.02,
+      "gamma": 0.1,
+      "degree": 3,
+      "coef0": 0.0
+    },
+    "fold_rmse": [
+      31.998235713748603,
+      27.442868411294622,
+      36.301396440490066
+    ],
+    "mean_rmse": 31.914166855177765,
+    "failure": null
+  },
+  {
+    "kernel": "poly",
+    "params": {
+      "C": 100.0,
+      "epsilon": 0.02,
+      "gamma": 0.1,
+      "degree": 3,
+      "coef0": 1.0
+    },
+    "fold_rmse": [
+      14.714993170401467,
+      3.8556478079625935,
+      10.715925781470721
+    ],
+    "mean_rmse": 9.762188919944927,
+    "failure": null
+  },
+  {
+    "kernel": "poly",
+    "params": {
+      "C": 100.0,
+      "epsilon": 0.02,
+      "gamma": 1.0,
+      "degree": 2,
+      "coef0": 0.0
+    },
+    "fold_rmse": [
+      31.7175180009128,
+      23.492340183010807,
+      5.2041231019727014
+    ],
+    "mean_rmse": 20.137993761965436,
+    "failure": null
+  },
+  {
+    "kernel": "poly",
+    "params": {
+      "C": 100.0,
+      "epsilon": 0.02,
+      "gamma": 1.0,
+      "degree": 2,
+      "coef0": 1.0
+    },
+    "fold_rmse": [
+      18.262975765062542,
+      14.798574799030451,
+      18.488476031368876
+    ],
+    "mean_rmse": 17.183342198487292,
+    "failure": null
+  },
+  {
+    "kernel": "poly",
+    "params": {
+      "C": 100.0,
+      "epsilon": 0.02,
+      "gamma": 1.0,
+      "degree": 3,
+      "coef0": 0.0
+    },
+    "fold_rmse": [
+      31.9869941275797,
+      27.44822824380754,
+      36.30056824961718
+    ],
+    "mean_rmse": 31.911930207001472,
+    "failure": null
+  },
+  {
+    "kernel": "poly",
+    "params": {
+      "C": 100.0,
+      "epsilon": 0.02,
+      "gamma": 1.0,
+      "degree": 3,
+      "coef0": 1.0
+    },
+    "fold_rmse": [
+      14.277138635746375,
+      3.7287837619897712,
+      11.07923433237865
+    ],
+    "mean_rmse": 9.695052243371599,
+    "failure": null
+  },
+  {
+    "kernel": "poly",
+    "params": {
+      "C": 100.0,
+      "epsilon": 0.02,
+      "gamma": 10.0,
+      "degree": 2,
+      "coef0": 0.0
+    },
+    "fold_rmse": [
+      31.219982759853153,
+      24.160969414951648
+    ],
+    "mean_rmse": null,
+    "failure": "Solver terminated early (max_iter=2000000).  Consider pre-processing your data with StandardScaler or MinMaxScaler."
+  },
+  {
+    "kernel": "poly",
+    "params": {
+      "C": 100.0,
+      "epsilon": 0.02,
+      "gamma": 10.0,
+      "degree": 2,
+      "coef0": 1.0
+    },
+    "fold_rmse": [],
+    "mean_rmse": null,
+    "failure": "Solver terminated early (max_iter=2000000).  Consider pre-processing your data with StandardScaler or MinMaxScaler."
+  },
+  {
+    "kernel": "poly",
+    "params": {
+      "C": 100.0,
+      "epsilon": 0.02,
+      "gamma": 10.0,
+      "degree": 3,
+      "coef0": 0.0
+    },
+    "fold_rmse": [],
+    "mean_rmse": null,
+    "failure": "Solver terminated early (max_iter=2000000).  Consider pre-processing your data with StandardScaler or MinMaxScaler."
+  },
+  {
+    "kernel": "poly",
+    "params": {
+      "C": 100.0,
+      "epsilon": 0.02,
+      "gamma": 10.0,
+      "degree": 3,
+      "coef0": 1.0
+    },
+    "fold_rmse": [],
+    "mean_rmse": null,
+    "failure": "Solver terminated early (max_iter=2000000).  Consider pre-processing your data with StandardScaler or MinMaxScaler."
+  },
+  {
+    "kernel": "poly",
+    "params": {
+      "C": 100.0,
+      "epsilon": 0.1,
+      "gamma": 0.1,
+      "degree": 2,
+      "coef0": 0.0
+    },
+    "fold_rmse": [
+      29.64384248482754,
+      12.338455351081548,
+      4.342117000600409
+    ],
+    "mean_rmse": 15.441471612169833,
+    "failure": null
+  },
+  {
+    "kernel": "poly",
+    "params": {
+      "C": 100.0,
+      "epsilon": 0.1,
+      "gamma": 0.1,
+      "degree": 2,
+      "coef0": 1.0
+    },
+    "fold_rmse": [
+      18.452587608905276,
+      14.252036530571537,
+      18.163885467672863
+    ],
+    "mean_rmse": 16.95616986904989,
+    "failure": null
+  },
+  {
+    "kernel": "poly",
+    "params": {
+      "C": 100.0,
+      "epsilon": 0.1,
+      "gamma": 0.1,
+      "degree": 3,
+      "coef0": 0.0
+    },
+    "fold_rmse": [
+      31.95747477496119,
+      27.26028171659881,
+      37.31693940161842
+    ],
+    "mean_rmse": 32.17823196439281,
+    "failure": null
+  },
+  {
+    "kernel": "poly",
+    "params": {
+      "C": 100.0,
+      "epsilon": 0.1,
+      "gamma": 0.1,
+      "degree": 3,
+      "coef0": 1.0
+    },
+    "fold_rmse": [
+      14.936179393087544,
+      3.58901539500962,
+      9.266276405487584
+    ],
+    "mean_rmse": 9.263823731194917,
+    "failure": null
+  },
+  {
+    "kernel": "poly",
+    "params": {
+      "C": 100.0,
+      "epsilon": 0.1,
+      "gamma": 1.0,
+      "degree": 2,
+      "coef0": 0.0
+    },
+    "fold_rmse": [
+      29.642214663344774,
+      12.336458308211357,
+      4.344399260941027
+    ],
+    "mean_rmse": 15.441024077499051,
+    "failure": null
+  },
+  {
+    "kernel": "poly",
+    "params": {
+      "C": 100.0,
+      "epsilon": 0.1,
+      "gamma": 1.0,
+      "degree": 2,
+      "coef0": 1.0
+    },
+    "fold_rmse": [
+      18.450106894262134,
+      14.252978305417539,
+      18.161450640586793
+    ],
+    "mean_rmse": 16.954845280088822,
+    "failure": null
+  },
+  {
+    "kernel": "poly",
+    "params": {
+      "C": 100.0,
+      "epsilon": 0.1,
+      "gamma": 1.0,
+      "degree": 3,
+      "coef0": 0.0
+    },
+    "fold_rmse": [],
+    "mean_rmse": null,
+    "failure": "Solver terminated early (max_iter=2000000).  Consider pre-processing your data with StandardScaler or MinMaxScaler."
+  },
+  {
+    "kernel": "poly",
+    "params": {
+      "C": 100.0,
+      "epsilon": 0.1,
+      "gamma": 1.0,
+      "degree": 3,
+      "coef0": 1.0
+    },
+    "fold_rmse": [],
+    "mean_rmse": null,
+    "failure": "Solver terminated early (max_iter=2000000).  Consider pre-processing your data with StandardScaler or MinMaxScaler."
+  },
+  {
+    "kernel": "poly",
+    "params": {
+      "C": 100.0,
+      "epsilon": 0.1,
+      "gamma": 10.0,
+      "degree": 2,
+      "coef0": 0.0
+    },
+    "fold_rmse": [],
+    "mean_rmse": null,
+    "failure": "Solver terminated early (max_iter=2000000).  Consider pre-processing your data with StandardScaler or MinMaxScaler."
+  },
+  {
+    "kernel": "poly",
+    "params": {
+      "C": 100.0,
+      "epsilon": 0.1,
+      "gamma": 10.0,
+      "degree": 2,
+      "coef0": 1.0
+    },
+    "fold_rmse": [],
+    "mean_rmse": null,
+    "failure": "Solver terminated early (max_iter=2000000).  Consider pre-processing your data with StandardScaler or MinMaxScaler."
+  },
+  {
+    "kernel": "poly",
+    "params": {
+      "C": 100.0,
+      "epsilon": 0.1,
+      "gamma": 10.0,
+      "degree": 3,
+      "coef0": 0.0
+    },
+    "fold_rmse": [],
+    "mean_rmse": null,
+    "failure": "Solver terminated early (max_iter=2000000).  Consider pre-processing your data with StandardScaler or MinMaxScaler."
+  },
+  {
+    "kernel": "poly",
+    "params": {
+      "C": 100.0,
+      "epsilon": 0.1,
+      "gamma": 10.0,
+      "degree": 3,
+      "coef0": 1.0
+    },
+    "fold_rmse": [],
+    "mean_rmse": null,
+    "failure": "Solver terminated early (max_iter=2000000).  Consider pre-processing your data with StandardScaler or MinMaxScaler."
+  },
+  {
+    "kernel": "rbf",
+    "params": {
+      "C": 1.0,
+      "epsilon": 0.02,
+      "gamma": 0.1
+    },
+    "fold_rmse": [
+      11.475997077062216,
+      7.072142273894111,
+      11.767095336493028
+    ],
+    "mean_rmse": 10.105078229149784,
+    "failure": null
+  },
+  {
+    "kernel": "rbf",
+    "params": {
+      "C": 1.0,
+      "epsilon": 0.02,
+      "gamma": 1.0
+    },
+    "fold_rmse": [
+      13.58504609485497,
+      6.747972079932703,
+      8.104836165689608
+    ],
+    "mean_rmse": 9.479284780159094,
+    "failure": null
+  },
+  {
+    "kernel": "rbf",
+    "params": {
+      "C": 1.0,
+      "epsilon": 0.02,
+      "gamma": 10.0
+    },
+    "fold_rmse": [
+      14.965535096736126,
+      14.513505635230716,
+      5.359853093063701
+    ],
+    "mean_rmse": 11.612964608343512,
+    "failure": null
+  },
+  {
+    "kernel": "rbf",
+    "params": {
+      "C": 1.0,
+      "epsilon": 0.1,
+      "gamma": 0.1
+    },
+    "fold_rmse": [
+      11.152278185922745,
+      6.869585247408681,
+      11.747180724488926
+    ],
+    "mean_rmse": 9.923014719273452,
+    "failure": null
+  },
+  {
+    "kernel": "rbf",
+    "params": {
+      "C": 1.0,
+      "epsilon": 0.1,
+      "gamma": 1.0
+    },
+    "fold_rmse": [
+      12.727467459997209,
+      6.64438604059049,
+      7.1288038717746085
+    ],
+    "mean_rmse": 8.833552457454102,
+    "failure": null
+  },
+  {
+    "kernel": "rbf",
+    "params": {
+      "C": 1.0,
+      "epsilon": 0.1,
+      "gamma": 10.0
+    },
+    "fold_rmse": [
+      14.971168639767054,
+      14.159947774190385,
+      4.390697452961286
+    ],
+    "mean_rmse": 11.173937955639575,
+    "failure": null
+  },
+  {
+    "kernel": "rbf",
+    "params": {
+      "C": 10.0,
+      "epsilon": 0.02,
+      "gamma": 0.1
+    },
+    "fold_rmse": [
+      13.655700378088477,
+      5.638868156321171,
+      5.756109323204617
+    ],
+    "mean_rmse": 8.35022595253809,
+    "failure": null
+  },
+  {
+    "kernel": "rbf",
+    "params": {
+      "C": 10.0,
+      "epsilon": 0.02,
+      "gamma": 1.0
+    },
+    "fold_rmse": [
+      32.87462974801807,
+      37.24905784431099,
+      27.2441882861871
+    ],
+    "mean_rmse": 32.455958626172055,
+    "failure": null
+  },
+  {
+    "kernel": "rbf",
+    "params": {
+      "C": 10.0,
+      "epsilon": 0.02,
+      "gamma": 10.0
+    },
+    "fold_rmse": [
+      15.338280856322026,
+      17.9377245015473,
+      10.841870606064111
+    ],
+    "mean_rmse": 14.705958654644478,
+    "failure": null
+  },
+  {
+    "kernel": "rbf",
+    "params": {
+      "C": 10.0,
+      "epsilon": 0.1,
+      "gamma": 0.1
+    },
+    "fold_rmse": [
+      13.57230882957746,
+      5.283125010712559,
+      4.889625068229406
+    ],
+    "mean_rmse": 7.915019636173142,
+    "failure": null
+  },
+  {
+    "kernel": "rbf",
+    "params": {
+      "C": 10.0,
+      "epsilon": 0.1,
+      "gamma": 1.0
+    },
+    "fold_rmse": [
+      32.23685457303321,
+      38.354435658646985,
+      23.909642197243027
+    ],
+    "mean_rmse": 31.50031080964108,
+    "failure": null
+  },
+  {
+    "kernel": "rbf",
+    "params": {
+      "C": 10.0,
+      "epsilon": 0.1,
+      "gamma": 10.0
+    },
+    "fold_rmse": [
+      15.7305540055893,
+      18.086308148179906,
+      9.715507818987865
+    ],
+    "mean_rmse": 14.510789990919024,
+    "failure": null
+  },
+  {
+    "kernel": "rbf",
+    "params": {
+      "C": 100.0,
+      "epsilon": 0.02,
+      "gamma": 0.1
+    },
+    "fold_rmse": [
+      19.79374994919267,
+      7.919636111144404,
+      9.351261688587373
+    ],
+    "mean_rmse": 12.354882582974815,
+    "failure": null
+  },
+  {
+    "kernel": "rbf",
+    "params": {
+      "C": 100.0,
+      "epsilon": 0.02,
+      "gamma": 1.0
+    },
+    "fold_rmse": [
+      31.658777353571157,
+      39.65616874020722,
+      39.19036872994723
+    ],
+    "mean_rmse": 36.835104941241866,
+    "failure": null
+  },
+  {
+    "kernel": "rbf",
+    "params": {
+      "C": 100.0,
+      "epsilon": 0.02,
+      "gamma": 10.0
+    },
+    "fold_rmse": [
+      15.04734875587415,
+      18.55851407669144,
+      16.3027272529816
+    ],
+    "mean_rmse": 16.636196695182395,
+    "failure": null
+  },
+  {
+    "kernel": "rbf",
+    "params": {
+      "C": 100.0,
+      "epsilon": 0.1,
+      "gamma": 0.1
+    },
+    "fold_rmse": [
+      19.587617154064812,
+      8.09107513357127,
+      8.968348872356085
+    ],
+    "mean_rmse": 12.215680386664056,
+    "failure": null
+  },
+  {
+    "kernel": "rbf",
+    "params": {
+      "C": 100.0,
+      "epsilon": 0.1,
+      "gamma": 1.0
+    },
+    "fold_rmse": [
+      30.02505300266225,
+      39.33144885401895,
+      35.15805131435899
+    ],
+    "mean_rmse": 34.83818439034673,
+    "failure": null
+  },
+  {
+    "kernel": "rbf",
+    "params": {
+      "C": 100.0,
+      "epsilon": 0.1,
+      "gamma": 10.0
+    },
+    "fold_rmse": [
+      13.963561970196555,
+      14.892115167144736,
+      2.9784358959882593
+    ],
+    "mean_rmse": 10.61137101110985,
+    "failure": null
+  },
+  {
+    "kernel": "sigmoid",
+    "params": {
+      "C": 1.0,
+      "epsilon": 0.02,
+      "gamma": 0.1,
+      "coef0": -1.0
+    },
+    "fold_rmse": [
+      12.885991860605582,
+      11.41060234525644,
+      18.82087312873405
+    ],
+    "mean_rmse": 14.372489111532024,
+    "failure": null
+  },
+  {
+    "kernel": "sigmoid",
+    "params": {
+      "C": 1.0,
+      "epsilon": 0.02,
+      "gamma": 0.1,
+      "coef0": 0.0
+    },
+    "fold_rmse": [
+      7.468316778060313,
+      11.554467366836441,
+      22.986960617156008
+    ],
+    "mean_rmse": 14.003248254017587,
+    "failure": null
+  },
+  {
+    "kernel": "sigmoid",
+    "params": {
+      "C": 1.0,
+      "epsilon": 0.02,
+      "gamma": 0.1,
+      "coef0": 1.0
+    },
+    "fold_rmse": [
+      21.427405353402566,
+      14.986041215412357,
+      58.60893105746267
+    ],
+    "mean_rmse": 31.67412587542586,
+    "failure": null
+  },
+  {
+    "kernel": "sigmoid",
+    "params": {
+      "C": 1.0,
+      "epsilon": 0.02,
+      "gamma": 1.0,
+      "coef0": -1.0
+    },
+    "fold_rmse": [
+      215.16685547595497,
+      364.79794612777255,
+      333.7918066144718
+    ],
+    "mean_rmse": 304.5855360727331,
+    "failure": null
+  },
+  {
+    "kernel": "sigmoid",
+    "params": {
+      "C": 1.0,
+      "epsilon": 0.02,
+      "gamma": 1.0,
+      "coef0": 0.0
+    },
+    "fold_rmse": [
+      312.5594778645133,
+      371.013899160459,
+      415.8672797305262
+    ],
+    "mean_rmse": 366.48021891849953,
+    "failure": null
+  },
+  {
+    "kernel": "sigmoid",
+    "params": {
+      "C": 1.0,
+      "epsilon": 0.02,
+      "gamma": 1.0,
+      "coef0": 1.0
+    },
+    "fold_rmse": [
+      273.4511929592369,
+      359.77658828824735,
+      411.56551464760486
+    ],
+    "mean_rmse": 348.2644319650297,
+    "failure": null
+  },
+  {
+    "kernel": "sigmoid",
+    "params": {
+      "C": 1.0,
+      "epsilon": 0.02,
+      "gamma": 10.0,
+      "coef0": -1.0
+    },
+    "fold_rmse": [
+      126.73924758316706,
+      146.69234104812298,
+      165.3496319659842
+    ],
+    "mean_rmse": 146.26040686575809,
+    "failure": null
+  },
+  {
+    "kernel": "sigmoid",
+    "params": {
+      "C": 1.0,
+      "epsilon": 0.02,
+      "gamma": 10.0,
+      "coef0": 0.0
+    },
+    "fold_rmse": [
+      90.51637268310193,
+      90.50639502478367,
+      105.74799846556007
+    ],
+    "mean_rmse": 95.59025539114856,
+    "failure": null
+  },
+  {
+    "kernel": "sigmoid",
+    "params": {
+      "C": 1.0,
+      "epsilon": 0.02,
+      "gamma": 10.0,
+      "coef0": 1.0
+    },
+    "fold_rmse": [
+      135.77328897720218,
+      144.48733352319894,
+      172.06306011181408
+    ],
+    "mean_rmse": 150.7745608707384,
+    "failure": null
+  },
+  {
+    "kernel": "sigmoid",
+    "params": {
+      "C": 1.0,
+      "epsilon": 0.1,
+      "gamma": 0.1,
+      "coef0": -1.0
+    },
+    "fold_rmse": [
+      12.748861438132472,
+      11.006027528928811,
+      18.401155453616333
+    ],
+    "mean_rmse": 14.052014806892538,
+    "failure": null
+  },
+  {
+    "kernel": "sigmoid",
+    "params": {
+      "C": 1.0,
+      "epsilon": 0.1,
+      "gamma": 0.1,
+      "coef0": 0.0
+    },
+    "fold_rmse": [
+      7.491334842346583,
+      11.688656370181155,
+      23.147322703098887
+    ],
+    "mean_rmse": 14.109104638542208,
+    "failure": null
+  },
+  {
+    "kernel": "sigmoid",
+    "params": {
+      "C": 1.0,
+      "epsilon": 0.1,
+      "gamma": 0.1,
+      "coef0": 1.0
+    },
+    "fold_rmse": [
+      21.873430584087924,
+      13.6973307639575,
+      57.3957665941344
+    ],
+    "mean_rmse": 30.988842647393273,
+    "failure": null
+  },
+  {
+    "kernel": "sigmoid",
+    "params": {
+      "C": 1.0,
+      "epsilon": 0.1,
+      "gamma": 1.0,
+      "coef0": -1.0
+    },
+    "fold_rmse": [
+      213.1487177068024,
+      366.4894820627574,
+      333.30515570985057
+    ],
+    "mean_rmse": 304.31445182647013,
+    "failure": null
+  },
+  {
+    "kernel": "sigmoid",
+    "params": {
+      "C": 1.0,
+      "epsilon": 0.1,
+      "gamma": 1.0,
+      "coef0": 0.0
+    },
+    "fold_rmse": [
+      312.8568018873769,
+      372.10183976427294,
+      417.177219482374
+    ],
+    "mean_rmse": 367.37862037800795,
+    "failure": null
+  },
+  {
+    "kernel": "sigmoid",
+    "params": {
+      "C": 1.0,
+      "epsilon": 0.1,
+      "gamma": 1.0,
+      "coef0": 1.0
+    },
+    "fold_rmse": [
+      271.43633701312353,
+      361.99791308691715,
+      411.3536068281722
+    ],
+    "mean_rmse": 348.262618976071,
+    "failure": null
+  },
+  {
+    "kernel": "sigmoid",
+    "params": {
+      "C": 1.0,
+      "epsilon": 0.1,
+      "gamma": 10.0,
+      "coef0": -1.0
+    },
+    "fold_rmse": [
+      126.0835863443918,
+      145.74106802265894,
+      165.42294135338577
+    ],
+    "mean_rmse": 145.74919857347882,
+    "failure": null
+  },
+  {
+    "kernel": "sigmoid",
+    "params": {
+      "C": 1.0,
+      "epsilon": 0.1,
+      "gamma": 10.0,
+      "coef0": 0.0
+    },
+    "fold_rmse": [
+      89.6350900065609,
+      91.21052838799353,
+      105.83620725644988
+    ],
+    "mean_rmse": 95.56060855033478,
+    "failure": null
+  },
+  {
+    "kernel": "sigmoid",
+    "params": {
+      "C": 1.0,
+      "epsilon": 0.1,
+      "gamma": 10.0,
+      "coef0": 1.0
+    },
+    "fold_rmse": [
+      135.0194042612315,
+      143.53607939739928,
+      172.06306011181408
+    ],
+    "mean_rmse": 150.20618125681497,
+    "failure": null
+  },
+  {
+    "kernel": "sigmoid",
+    "params": {
+      "C": 10.0,
+      "epsilon": 0.02,
+      "gamma": 0.1,
+      "coef0": -1.0
+    },
+    "fold_rmse": [
+      16.79100417773733,
+      10.863288613208008,
+      13.26112450045762
+    ],
+    "mean_rmse": 13.638472430467653,
+    "failure": null
+  },
+  {
+    "kernel": "sigmoid",
+    "params": {
+      "C": 10.0,
+      "epsilon": 0.02,
+      "gamma": 0.1,
+      "coef0": 0.0
+    },
+    "fold_rmse": [
+      15.251694332345439,
+      35.54153845822003,
+      58.64939580276853
+    ],
+    "mean_rmse": 36.480876197778,
+    "failure": null
+  },
+  {
+    "kernel": "sigmoid",
+    "params": {
+      "C": 10.0,
+      "epsilon": 0.02,
+      "gamma": 0.1,
+      "coef0": 1.0
+    },
+    "fold_rmse": [
+      288.6152915774186,
+      353.25611350593766,
+      371.2423095377512
+    ],
+    "mean_rmse": 337.70457154036916,
+    "failure": null
+  },
+  {
+    "kernel": "sigmoid",
+    "params": {
+      "C": 10.0,
+      "epsilon": 0.02,
+      "gamma": 1.0,
+      "coef0": -1.0
+    },
+    "fold_rmse": [
+      3278.489855510336,
+      2602.40344645386,
+      3100.521600204136
+    ],
+    "mean_rmse": 2993.804967389444,
+    "failure": null
+  },
+  {
+    "kernel": "sigmoid",
+    "params": {
+      "C": 10.0,
+      "epsilon": 0.02,
+      "gamma": 1.0,
+      "coef0": 0.0
+    },
+    "fold_rmse": [
+      3070.9680532241896,
+      3741.942036039979,
+      4310.595429092695
+    ],
+    "mean_rmse": 3707.835172785621,
+    "failure": null
+  },
+  {
+    "kernel": "sigmoid",
+    "params": {
+      "C": 10.0,
+      "epsilon": 0.02,
+      "gamma": 1.0,
+      "coef0": 1.0
+    },
+    "fold_rmse": [
+      2652.3191786221237,
+      3527.5948138919175,
+      3997.9991222432172
+    ],
+    "mean_rmse": 3392.6377049190864,
+    "failure": null
+  },
+  {
+    "kernel": "sigmoid",
+    "params": {
+      "C": 10.0,
+      "epsilon": 0.02,
+      "gamma": 10.0,
+      "coef0": -1.0
+    },
+    "fold_rmse": [
+      1119.5634501844822,
+      1532.3258837634958,
+      1696.317593540005
+    ],
+    "mean_rmse": 1449.4023091626611,
+    "failure": null
+  },
+  {
+    "kernel": "sigmoid",
+    "params": {
+      "C": 10.0,
+      "epsilon": 0.02,
+      "gamma": 10.0,
+      "coef0": 0.0
+    },
+    "fold_rmse": [
+      752.2971615330684,
+      962.5831595261781,
+      1099.317543913644
+    ],
+    "mean_rmse": 938.0659549909634,
+    "failure": null
+  },
+  {
+    "kernel": "sigmoid",
+    "params": {
+      "C": 10.0,
+      "epsilon": 0.02,
+      "gamma": 10.0,
+      "coef0": 1.0
+    },
+    "fold_rmse": [
+      1209.7176503254439,
+      1510.2827479092066,
+      1761.733327322509
+    ],
+    "mean_rmse": 1493.9112418523866,
+    "failure": null
+  },
+  {
+    "kernel": "sigmoid",
+    "params": {
+      "C": 10.0,
+      "epsilon": 0.1,
+      "gamma": 0.1,
+      "coef0": -1.0
+    },
+    "fold_rmse": [
+      16.453020133781777,
+      11.135450198372583,
+      13.266886515673406
+    ],
+    "mean_rmse": 13.618452282609255,
+    "failure": null
+  },
+  {
+    "kernel": "sigmoid",
+    "params": {
+      "C": 10.0,
+      "epsilon": 0.1,
+      "gamma": 0.1,
+      "coef0": 0.0
+    },
+    "fold_rmse": [
+      17.252160352591748,
+      35.880013419735974,
+      59.78172848183016
+    ],
+    "mean_rmse": 37.637967418052625,
+    "failure": null
+  },
+  {
+    "kernel": "sigmoid",
+    "params": {
+      "C": 10.0,
+      "epsilon": 0.1,
+      "gamma": 0.1,
+      "coef0": 1.0
+    },
+    "fold_rmse": [
+      290.81064643979295,
+      352.32570622180924,
+      372.81317675355484
+    ],
+    "mean_rmse": 338.6498431383857,
+    "failure": null
+  },
+  {
+    "kernel": "sigmoid",
+    "params": {
+      "C": 10.0,
+      "epsilon": 0.1,
+      "gamma": 1.0,
+      "coef0": -1.0
+    },
+    "fold_rmse": [
+      3277.6260742279037,
+      2601.4691186385157,
+      3101.697374387286
+    ],
+    "mean_rmse": 2993.597522417902,
+    "failure": null
+  },
+  {
+    "kernel": "sigmoid",
+    "params": {
+      "C": 10.0,
+      "epsilon": 0.1,
+      "gamma": 1.0,
+      "coef0": 0.0
+    },
+    "fold_rmse": [
+      3073.8721159926336,
+      3741.942036039979,
+      4313.827404131024
+    ],
+    "mean_rmse": 3709.8805187212124,
+    "failure": null
+  },
+  {
+    "kernel": "sigmoid",
+    "params": {
+      "C": 10.0,
+      "epsilon": 0.1,
+      "gamma": 1.0,
+      "coef0": 1.0
+    },
+    "fold_rmse": [
+      2652.3191786221237,
+      3527.5948138919175,
+      4000.2089771035576
+    ],
+    "mean_rmse": 3393.374323205866,
+    "failure": null
+  },
+  {
+    "kernel": "sigmoid",
+    "params": {
+      "C": 10.0,
+      "epsilon": 0.1,
+      "gamma": 10.0,
+      "coef0": -1.0
+    },
+    "fold_rmse": [
+      1120.4489172615376,
+      1531.375691775978,
+      1697.2878484696494
+    ],
+    "mean_rmse": 1449.7041525023885,
+    "failure": null
+  },
+  {
+    "kernel": "sigmoid",
+    "params": {
+      "C": 10.0,
+      "epsilon": 0.1,
+      "gamma": 10.0,
+      "coef0": 0.0
+    },
+    "fold_rmse": [
+      752.3580809598665,
+      961.6327138044749,
+      1098.3470716714623
+    ],
+    "mean_rmse": 937.4459554786013,
+    "failure": null
+  },
+  {
+    "kernel": "sigmoid",
+    "params": {
+      "C": 10.0,
+      "epsilon": 0.1,
+      "gamma": 10.0,
+      "coef0": 1.0
+    },
+    "fold_rmse": [
+      1208.8331884410368,
+      1509.3325940537493,
+      1762.703598434801
+    ],
+    "mean_rmse": 1493.6231269765292,
+    "failure": null
+  },
+  {
+    "kernel": "sigmoid",
+    "params": {
+      "C": 100.0,
+      "epsilon": 0.02,
+      "gamma": 0.1,
+      "coef0": -1.0
+    },
+    "fold_rmse": [
+      15.507959014311545,
+      4.371636590443386,
+      5.490680346652353
+    ],
+    "mean_rmse": 8.456758650469096,
+    "failure": null
+  },
+  {
+    "kernel": "sigmoid",
+    "params": {
+      "C": 100.0,
+      "epsilon": 0.02,
+      "gamma": 0.1,
+      "coef0": 0.0
+    },
+    "fold_rmse": [
+      458.6688393867453,
+      484.4726639591209,
+      524.5269540921624
+    ],
+    "mean_rmse": 489.2228191460095,
+    "failure": null
+  },
+  {
+    "kernel": "sigmoid",
+    "params": {
+      "C": 100.0,
+      "epsilon": 0.02,
+      "gamma": 0.1,
+      "coef0": 1.0
+    },
+    "fold_rmse": [
+      2803.0494421581175,
+      3308.5481312429515,
+      3632.231998841403
+    ],
+    "mean_rmse": 3247.9431907474905,
+    "failure": null
+  },
+  {
+    "kernel": "sigmoid",
+    "params": {
+      "C": 100.0,
+      "epsilon": 0.02,
+      "gamma": 1.0,
+      "coef0": -1.0
+    },
+    "fold_rmse": [
+      22481.210373510203,
+      26084.048905498963,
+      30837.60430496169
+    ],
+    "mean_rmse": 26467.621194656953,
+    "failure": null
+  },
+  {
+    "kernel": "sigmoid",
+    "params": {
+      "C": 100.0,
+      "epsilon": 0.02,
+      "gamma": 1.0,
+      "coef0": 0.0
+    },
+    "fold_rmse": [
+      30840.889978238654,
+      37278.40473713653,
+      43252.082467899956
+    ],
+    "mean_rmse": 37123.79239442505,
+    "failure": null
+  },
+  {
+    "kernel": "sigmoid",
+    "params": {
+      "C": 100.0,
+      "epsilon": 0.02,
+      "gamma": 1.0,
+      "coef0": 1.0
+    },
+    "fold_rmse": [
+      26694.9302324153,
+      35377.89948787847,
+      39851.50765457999
+    ],
+    "mean_rmse": 33974.77912495792,
+    "failure": null
+  },
+  {
+    "kernel": "sigmoid",
+    "params": {
+      "C": 100.0,
+      "epsilon": 0.02,
+      "gamma": 10.0,
+      "coef0": -1.0
+    },
+    "fold_rmse": [
+      11044.636000817682,
+      15389.40134038318,
+      17015.357620780935
+    ],
+    "mean_rmse": 14483.131653993934,
+    "failure": null
+  },
+  {
+    "kernel": "sigmoid",
+    "params": {
+      "C": 100.0,
+      "epsilon": 0.02,
+      "gamma": 10.0,
+      "coef0": 0.0
+    },
+    "fold_rmse": [
+      7357.163201262768,
+      9689.332581800896,
+      11036.114574844574
+    ],
+    "mean_rmse": 9360.870119302746,
+    "failure": null
+  },
+  {
+    "kernel": "sigmoid",
+    "params": {
+      "C": 100.0,
+      "epsilon": 0.02,
+      "gamma": 10.0,
+      "coef0": 1.0
+    },
+    "fold_rmse": [
+      11950.247574108462,
+      15168.98734685746,
+      17669.51021518126
+    ],
+    "mean_rmse": 14929.581712049061,
+    "failure": null
+  },
+  {
+    "kernel": "sigmoid",
+    "params": {
+      "C": 100.0,
+      "epsilon": 0.1,
+      "gamma": 0.1,
+      "coef0": -1.0
+    },
+    "fold_rmse": [
+      14.714353538359385,
+      4.191416984464904,
+      5.538551761867435
+    ],
+    "mean_rmse": 8.148107428230574,
+    "failure": null
+  },
+  {
+    "kernel": "sigmoid",
+    "params": {
+      "C": 100.0,
+      "epsilon": 0.1,
+      "gamma": 0.1,
+      "coef0": 0.0
+    },
+    "fold_rmse": [
+      457.4008055535863,
+      484.59230360984185,
+      525.1181959669279
+    ],
+    "mean_rmse": 489.03710171011863,
+    "failure": null
+  },
+  {
+    "kernel": "sigmoid",
+    "params": {
+      "C": 100.0,
+      "epsilon": 0.1,
+      "gamma": 0.1,
+      "coef0": 1.0
+    },
+    "fold_rmse": [
+      2800.8530802379487,
+      3308.5481312429515,
+      3630.0056517922553
+    ],
+    "mean_rmse": 3246.468954424385,
+    "failure": null
+  },
+  {
+    "kernel": "sigmoid",
+    "params": {
+      "C": 100.0,
+      "epsilon": 0.1,
+      "gamma": 1.0,
+      "coef0": -1.0
+    },
+    "fold_rmse": [
+      22480.638383731068,
+      26083.113832329676,
+      30838.779944974427
+    ],
+    "mean_rmse": 26467.510720345057,
+    "failure": null
+  },
+  {
+    "kernel": "sigmoid",
+    "params": {
+      "C": 100.0,
+      "epsilon": 0.1,
+      "gamma": 1.0,
+      "coef0": 0.0
+    },
+    "fold_rmse": [
+      30843.794868055247,
+      37332.0871711107,
+      43253.1938197596
+    ],
+    "mean_rmse": 37143.02528630852,
+    "failure": null
+  },
+  {
+    "kernel": "sigmoid",
+    "params": {
+      "C": 100.0,
+      "epsilon": 0.1,
+      "gamma": 1.0,
+      "coef0": 1.0
+    },
+    "fold_rmse": [
+      26692.82595306564,
+      35377.89948787847,
+      39853.71737810373
+    ],
+    "mean_rmse": 33974.814273015945,
+    "failure": null
+  },
+  {
+    "kernel": "sigmoid",
+    "params": {
+      "C": 100.0,
+      "epsilon": 0.1,
+      "gamma": 10.0,
+      "coef0": -1.0
+    },
+    "fold_rmse": [
+      11045.521787942453,
+      15388.451296473839,
+      17016.327848872847
+    ],
+    "mean_rmse": 14483.433644429713,
+    "failure": null
+  },
+  {
+    "kernel": "sigmoid",
+    "params": {
+      "C": 100.0,
+      "epsilon": 0.1,
+      "gamma": 10.0,
+      "coef0": 0.0
+    },
+    "fold_rmse": [
+      7358.048260484518,
+      9688.382361902575,
+      11035.144140725151
+    ],
+    "mean_rmse": 9360.524921037415,
+    "failure": null
+  },
+  {
+    "kernel": "sigmoid",
+    "params": {
+      "C": 100.0,
+      "epsilon": 0.1,
+      "gamma": 10.0,
+      "coef0": 1.0
+    },
+    "fold_rmse": [
+      11949.362963559372,
+      15168.0373441315,
+      17670.48046067046
+    ],
+    "mean_rmse": 14929.293589453775,
+    "failure": null
+  },
+  {
+    "kernel": "laplacian",
+    "params": {
+      "C": 1.0,
+      "epsilon": 0.02,
+      "gamma": 0.1
+    },
+    "fold_rmse": [
+      7.615986682237504,
+      5.305422058948829,
+      5.820902461065879
+    ],
+    "mean_rmse": 6.247437067417404,
+    "failure": null
+  },
+  {
+    "kernel": "laplacian",
+    "params": {
+      "C": 1.0,
+      "epsilon": 0.02,
+      "gamma": 1.0
+    },
+    "fold_rmse": [
+      9.035506657993862,
+      4.65929725501456,
+      4.382433227329448
+    ],
+    "mean_rmse": 6.025745713445957,
+    "failure": null
+  },
+  {
+    "kernel": "laplacian",
+    "params": {
+      "C": 1.0,
+      "epsilon": 0.02,
+      "gamma": 10.0
+    },
+    "fold_rmse": [
+      15.060494235505496,
+      12.097778294424801,
+      3.4355204816551423
+    ],
+    "mean_rmse": 10.197931003861813,
+    "failure": null
+  },
+  {
+    "kernel": "laplacian",
+    "params": {
+      "C": 1.0,
+      "epsilon": 0.1,
+      "gamma": 0.1
+    },
+    "fold_rmse": [
+      7.2727942062958615,
+      5.3425606657808276,
+      6.208845620572138
+    ],
+    "mean_rmse": 6.274733497549609,
+    "failure": null
+  },
+  {
+    "kernel": "laplacian",
+    "params": {
+      "C": 1.0,
+      "epsilon": 0.1,
+      "gamma": 1.0
+    },
+    "fold_rmse": [
+      8.899601392917367,
+      4.778249564955801,
+      4.211397496466346
+    ],
+    "mean_rmse": 5.963082818113172,
+    "failure": null
+  },
+  {
+    "kernel": "laplacian",
+    "params": {
+      "C": 1.0,
+      "epsilon": 0.1,
+      "gamma": 10.0
+    },
+    "fold_rmse": [
+      14.95052836937545,
+      12.054965234399361,
+      3.5187823219071306
+    ],
+    "mean_rmse": 10.17475864189398,
+    "failure": null
+  },
+  {
+    "kernel": "laplacian",
+    "params": {
+      "C": 10.0,
+      "epsilon": 0.02,
+      "gamma": 0.1
+    },
+    "fold_rmse": [
+      6.676013213626196,
+      5.383345615295208,
+      5.257504833168779
+    ],
+    "mean_rmse": 5.772287887363395,
+    "failure": null
+  },
+  {
+    "kernel": "laplacian",
+    "params": {
+      "C": 10.0,
+      "epsilon": 0.02,
+      "gamma": 1.0
+    },
+    "fold_rmse": [
+      9.10582900858601,
+      4.346860199944293,
+      4.576194107303898
+    ],
+    "mean_rmse": 6.009627771944733,
+    "failure": null
+  },
+  {
+    "kernel": "laplacian",
+    "params": {
+      "C": 10.0,
+      "epsilon": 0.02,
+      "gamma": 10.0
+    },
+    "fold_rmse": [
+      14.998475160463126,
+      12.013364437309686,
+      3.442962870287093
+    ],
+    "mean_rmse": 10.151600822686635,
+    "failure": null
+  },
+  {
+    "kernel": "laplacian",
+    "params": {
+      "C": 10.0,
+      "epsilon": 0.1,
+      "gamma": 0.1
+    },
+    "fold_rmse": [
+      6.722346825095435,
+      5.28884391601477,
+      5.124237471653671
+    ],
+    "mean_rmse": 5.711809404254626,
+    "failure": null
+  },
+  {
+    "kernel": "laplacian",
+    "params": {
+      "C": 10.0,
+      "epsilon": 0.1,
+      "gamma": 1.0
+    },
+    "fold_rmse": [
+      9.182778113156392,
+      4.77414933931731,
+      4.220509010063764
+    ],
+    "mean_rmse": 6.059145487512488,
+    "failure": null
+  },
+  {
+    "kernel": "laplacian",
+    "params": {
+      "C": 10.0,
+      "epsilon": 0.1,
+      "gamma": 10.0
+    },
+    "fold_rmse": [
+      14.926217068535959,
+      12.045386831297106,
+      3.5219141124657622
+    ],
+    "mean_rmse": 10.164506004099609,
+    "failure": null
+  },
+  {
+    "kernel": "laplacian",
+    "params": {
+      "C": 100.0,
+      "epsilon": 0.02,
+      "gamma": 0.1
+    },
+    "fold_rmse": [
+      6.6946542438795476,
+      5.385939778130267,
+      5.475373531587995
+    ],
+    "mean_rmse": 5.851989184532603,
+    "failure": null
+  },
+  {
+    "kernel": "laplacian",
+    "params": {
+      "C": 100.0,
+      "epsilon": 0.02,
+      "gamma": 1.0
+    },
+    "fold_rmse": [
+      9.096111422416381,
+      4.345564122149824,
+      4.580500199904178
+    ],
+    "mean_rmse": 6.007391914823462,
+    "failure": null
+  },
+  {
+    "kernel": "laplacian",
+    "params": {
+      "C": 100.0,
+      "epsilon": 0.02,
+      "gamma": 10.0
+    },
+    "fold_rmse": [
+      14.998475160463126,
+      12.013364437309686,
+      3.442962870287093
+    ],
+    "mean_rmse": 10.151600822686635,
+    "failure": null
+  },
+  {
+    "kernel": "laplacian",
+    "params": {
+      "C": 100.0,
+      "epsilon": 0.1,
+      "gamma": 0.1
+    },
+    "fold_rmse": [
+      6.690329662740759,
+      5.234716477935796,
+      5.124557865966803
+    ],
+    "mean_rmse": 5.683201335547786,
+    "failure": null
+  },
+  {
+    "kernel": "laplacian",
+    "params": {
+      "C": 100.0,
+      "epsilon": 0.1,
+      "gamma": 1.0
+    },
+    "fold_rmse": [
+      9.178227522971717,
+      4.772910315533092,
+      4.2235763989407715
+    ],
+    "mean_rmse": 6.058238079148527,
+    "failure": null
+  },
+  {
+    "kernel": "laplacian",
+    "params": {
+      "C": 100.0,
+      "epsilon": 0.1,
+      "gamma": 10.0
+    },
+    "fold_rmse": [
+      14.926217068535959,
+      12.045386831297106,
+      3.5219141124657622
+    ],
+    "mean_rmse": 10.164506004099609,
+    "failure": null
+  }
+]
